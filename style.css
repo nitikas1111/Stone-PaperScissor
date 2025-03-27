@@ -61,3 +61,23 @@ img{
     padding: 0.8rem;
     border-radius: 1rem;
 }
+
+@media screen and (max-width: 780px) {
+    img{
+        height: 100px;
+    width: 100px;
+    }
+
+    .score{
+        font-size: 1rem;
+    }
+
+    #msg1{
+        font-size: 1rem;
+    }
+
+    .choices{
+        height: 100px;
+        width: 90px;
+    }
+}
